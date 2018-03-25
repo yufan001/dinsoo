@@ -1,0 +1,104 @@
+@charset "UTF-8";
+.web .list {
+  margin-top: 45px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #6DB6FF; }
+  .web .list .listtitle {
+    position: relative;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    height: 30px;
+    margin-bottom: 30px; }
+    .web .list .listtitle .listblue {
+      border-top: 30px solid #6DB6FF;
+      border-right: 13px solid transparent;
+      height: 0;
+      width: 80px;
+      position: absolute;
+      z-index: 0;
+      vertical-align: middle; }
+    .web .list .listtitle .listword {
+      position: absolute;
+      z-index: 1;
+      vertical-align: middle;
+      height: 30px;
+      line-height: 30px;
+      margin-left: 5px; }
+      .web .list .listtitle .listword span {
+        color: white; }
+  .web .list p {
+    font-size: 12px;
+    vertical-align: middle; }
+    .web .list p .listps {
+      font-size: 16px; }
+    .web .list p .listpsblue {
+      font-size: 14px;
+      color: #a7d2ff; }
+  .web .list img {
+    vertical-align: middle; }
+.web .listmain {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 24px; }
+  .web .listmain table tr {
+    height: 32px;
+    line-height: 32px; }
+  .web .listmain table {
+    margin: 0 auto;
+    font-size: 12px;
+    border-bottom: 1px solid #B6DAFF;
+    background-color: #fafafa; }
+    .web .listmain table .tabletitle {
+      font-weight: bold;
+      font-size: 16px; }
+      .web .listmain table .tabletitle .th1 {
+        width: 71px;
+        border-top: 1px solid #B6DAFF; }
+      .web .listmain table .tabletitle .th2 {
+        width: 167px;
+        height: 38px;
+        line-height: 38px;
+        border-bottom: 1px solid #b6daff; }
+        .web .listmain table .tabletitle .th2 .triblue1 {
+          width: 0;
+          height: 0;
+          border-bottom: 38px solid #b6daff;
+          border-right: 15px solid transparent; }
+      .web .listmain table .tabletitle .th3 {
+        width: 128px;
+        border-bottom: 1px solid #b6daff; }
+      .web .listmain table .tabletitle .th4 {
+        width: 131px;
+        border-bottom: 1px solid #b6daff; }
+      .web .listmain table .tabletitle .th5 {
+        width: 131px;
+        border-bottom: 1px solid #b6daff; }
+      .web .listmain table .tabletitle .th6 {
+        width: 163px;
+        border-bottom: 1px solid #b6daff; }
+        .web .listmain table .tabletitle .th6 .triblue2 {
+          width: 0;
+          height: 0;
+          border-bottom: 38px solid #b6daff;
+          border-left: 15px solid transparent; }
+      .web .listmain table .tabletitle .th7 {
+        width: 78px;
+        border-top: 1px solid #B6DAFF; }
+.web .pagechange {
+  margin-top: 18px;
+  text-align: center; }
+  .web .pagechange button {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle; }
+    .web .pagechange button:active {
+      background-color: #6db6ff;
+      color: white; }
+  .web .pagechange .bt1 {
+    width: 49px; }
+
+/*# sourceMappingURL=list.css.map */

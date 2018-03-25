@@ -1,0 +1,116 @@
+@charset "utf-8";
+.web {
+    .login_line {
+        width: 339px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 65px;
+        .login_line_1 {
+            width: 339px;
+            margin-left: auto;
+            margin-right: auto;
+            border-top: 1px solid #9ac1c0;
+            text-align: center;
+            .login_line_word1 {
+                font-size: 14px;
+                font-weight: bold;
+                margin-top: -18px;
+                width: 130px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: white;
+                letter-spacing: 4px;
+            }
+            .login_line_word2 {
+                font-size: 9px;
+                font-family: arial;
+                font-weight: bold;
+                width: 130px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: white;
+            }
+        }
+    }
+    .login_table {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 75px;
+        margin-bottom: 53px;
+        font-size: 12px;
+        text-align: center;
+        
+        .login_list {
+            display: inline-block;
+            width: 345px;
+            vertical-align: middle;
+            .login_list_1 {
+                width: 330px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                font-size: 14px;
+                .login_button1 {
+                    width: 93px;
+                    height: 24px;
+                    background-color: #b3d9ff;
+                    border-radius: 3px;
+                    cursor: pointer;
+                }
+                .login_button2 {
+                    width: 93px;
+                    height: 24px;
+                    border-radius: 3px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .login_input {
+            text-align: center;
+            .login_info {
+                //              font-size: 12px;
+            }
+            .login_pwd {
+                margin-right: 12px;
+            }
+            .login_np {
+                width: 265px;
+                padding: 0 4px;
+                background-color: #ecf5ff;
+            }
+            .login_check {
+                width: 99px;
+                padding: 0 4px;
+                background-color: #ecf5ff;
+                vertical-align: middle;
+            }
+            img {
+                vertical-align: middle;
+            }
+            .redword {
+                color: red;
+            }
+        }
+        .login_time {
+            input+span {
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+        }
+        .login_input_height {
+            margin-bottom: 22px;
+        }
+        .login_input .login_button3 {
+            width: 93px;
+            height: 24px;
+            background-color: #b3d9ff;
+            border-radius: 3px;
+            color: white;
+            cursor: pointer;
+        }
+        .login_img{
+            vertical-align: middle;
+        }
+    }
+}

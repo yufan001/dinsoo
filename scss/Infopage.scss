@@ -1,0 +1,126 @@
+@charset "utf-8";
+.web {
+    .list {
+        margin-top: 45px;
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: 1px solid #6DB6FF;
+        .listtitle {
+            position: relative;
+            font-size: 16px;
+            font-family: "微软雅黑";
+            height: 30px;
+            margin-bottom: 30px;
+            .listblue {
+                border-top: 30px solid #6DB6FF;
+                border-right: 13px solid transparent;
+                height: 0;
+                width: 80px;
+                position: absolute;
+                z-index: 0;
+                vertical-align: middle;
+            }
+            .listword {
+                position: absolute;
+                z-index: 1;
+                vertical-align: middle;
+                height: 30px;
+                line-height: 30px;
+                margin-left: 5px;
+                span {
+                    color: white;
+                }
+            }
+        }
+    }
+    .xianxititle {
+        text-align: center;
+        font-size: 10px;
+        .xianxititle_p1 {
+            font-size: 18px;
+        }
+        hr {
+            width: 157px;
+            margin-top: 9px;
+            border: none;
+            height: 1px;
+            background-color: #6DB6FF;
+        }
+    }
+    .profile {
+        width: 751px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 39px;
+        border-top: 1px solid #6db6ff;
+        margin-bottom: 33px;
+        .profile_tri1 {
+            width: 0;
+            height: 0;
+            border-top: 38px solid #6db6ff;
+            border-right: 15px solid transparent;
+        }
+        .profile_tri2 {
+            width: 0;
+            height: 0;
+            border-top: 38px solid #6db6ff;
+            border-left: 15px solid transparent;
+        }
+        .profile_tri3{
+            width: 0;
+            height: 0;
+            border-bottom: 40px solid #6db6ff;
+            border-right: 15px solid transparent;
+        }
+        .profile_tri4{
+            width: 0;
+            height: 0;
+            border-bottom: 40px solid #6db6ff;
+            border-left: 15px solid transparent;
+        }
+        .profile_info {
+            width: 721px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .profile_info {
+        width: 751px;
+        font-size: 12px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        tit {
+            font-size: 14px;
+            display: block;
+            margin-bottom: 18px;
+        }
+        .profile_info_1 {
+            margin-bottom: 16px;
+        }
+        .cultit{
+            margin: 0;
+        }
+        .corevalues{
+            text-align: start;
+            margin: 0;
+            margin-left: 195px;
+        }
+        .corevalues6{
+            margin-bottom: 16px;
+        }
+    }
+    .vision{
+        border: none;
+        border-bottom: 1px solid #6db6ff;
+    }
+    .xianxibutton{
+        text-align: center;
+        margin-top: 22px;
+        button{
+            background-color: white;
+            margin: 0 7px;
+        }
+    }
+}

@@ -1,0 +1,154 @@
+.web .about {
+  border: 1px solid #6db6ff;
+  margin-top: 26px;
+  width: 145px;
+  height: 36px;
+  margin-left: auto;
+  margin-right: auto; }
+  .web .about .abus1 {
+    width: 102px;
+    text-align: center;
+    font-size: 24px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -16px; }
+  .web .about .abus2 {
+    width: 140px;
+    height: 12px;
+    text-align: center;
+    font-size: 16px; }
+.web .about_info {
+  margin-top: 21px;
+  margin-left: 31px; }
+  .web .about_info .same1 {
+    padding-top: 18px;
+    background: #f2f2f2;
+    text-align: center;
+    margin-left: 20px;
+    padding-left: 25px;
+    padding-right: 25px; }
+    .web .about_info .same1 .text1 {
+      font-size: 16px;
+      font-weight: bold; }
+    .web .about_info .same1 .text2 {
+      font-size: 16px;
+      font-weight: bold;
+      font-family: arial; }
+    .web .about_info .same1 .text3 {
+      font-size: 12px;
+      font-weight: bold;
+      color: #838383;
+      line-height: 25px; }
+  .web .about_info .mission {
+    width: 267px;
+    height: 317px; }
+  .web .about_info .team {
+    width: 321px;
+    height: 317px; }
+  .web .about_info .vision {
+    width: 270px;
+    height: 317px; }
+.web .case {
+  border: 1px solid #6db6ff;
+  margin-top: 26px;
+  width: 145px;
+  height: 36px;
+  margin-left: auto;
+  margin-right: auto; }
+  .web .case .case1 {
+    width: 102px;
+    text-align: center;
+    font-size: 24px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -16px; }
+  .web .case .case2 {
+    width: 140px;
+    height: 12px;
+    text-align: center;
+    font-size: 16px; }
+.web .case_info {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: center; }
+  .web .case_info .case_photo {
+    margin-left: 44px;
+    margin-top: 22px; }
+    .web .case_info .case_photo .case_size {
+      margin-left: 7px; }
+      .web .case_info .case_photo .case_size .case_size_1 {
+        margin-bottom: 15px; }
+      .web .case_info .case_photo .case_size .case_size_2 {
+        margin-bottom: 18px;
+        font-size: 12px;
+        letter-spacing: 3px; }
+      .web .case_info .case_photo .case_size .click {
+        width: 135px;
+        height: 27px;
+        background-color: #6DB6FF;
+        margin-left: auto;
+        margin-right: auto; }
+        .web .case_info .case_photo .case_size .click a {
+          font-size: 16px;
+          font-weight: bold;
+          color: white;
+          line-height: 27px; }
+.web .link {
+  margin-top: 50px;
+  width: 900px;
+  height: 305px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(../images/link.jpg); }
+  .web .link .coverlink {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 33px;
+    text-align: center;
+    position: relative; }
+    .web .link .coverlink .AOL {
+      border: 1px solid #6db6ff;
+      width: 145px;
+      height: 36px;
+      margin-left: auto;
+      margin-right: auto;
+      color: white; }
+      .web .link .coverlink .AOL .AOL1 {
+        width: 102px;
+        text-align: center;
+        font-size: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -16px; }
+      .web .link .coverlink .AOL .AOL2 {
+        width: 140px;
+        height: 12px;
+        text-align: center;
+        font-size: 16px; }
+    .web .link .coverlink .link1 {
+      position: absolute;
+      top: 116px;
+      left: 7px; }
+    .web .link .coverlink .link2 {
+      position: absolute;
+      top: 112px;
+      left: 79px; }
+    .web .link .coverlink .link3 {
+      position: absolute;
+      top: 112px;
+      left: 323px; }
+    .web .link .coverlink .link4 {
+      position: absolute;
+      top: 112px;
+      left: 589px; }
+    .web .link .coverlink .link5 {
+      position: absolute;
+      top: 116px;
+      left: 852px; }
+
+/*# sourceMappingURL=index.css.map */

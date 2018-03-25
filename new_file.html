@@ -1,0 +1,63 @@
+<html>
+
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<style type="text/css">
+			
+		</style>
+	</head>
+
+	<body>
+		<meta charset="utf-8">
+<style type="text/css">
+.box {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  position: relative;
+  border: 2px solid orange;
+  /*vertical-align: middle;*/
+}
+
+.box input {
+  opacity: 0;
+}
+
+.box span {
+  position: absolute;
+  top: -10px;
+  right: 3px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial;
+  /*-webkit-transform: rotate(30deg);
+  transform: rotate(30deg);*/
+  color: orange;
+}
+
+input[type="checkbox"] + span {
+  opacity: 0;
+}
+
+input[type="checkbox"]:checked + span {
+  opacity: 1;
+}
+</style>
+
+<form action="#">
+
+  	 <label for="username">
+    <div class="box">
+      <input type="checkbox" checked="checked" id="username" /><span>√</span>
+    </div>
+   </label>
+
+  
+  
+</form>
+
+	</body>
+
+</html>

@@ -1,0 +1,83 @@
+.web .login_line {
+  width: 339px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 65px; }
+  .web .login_line .login_line_1 {
+    width: 339px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #9ac1c0;
+    text-align: center; }
+    .web .login_line .login_line_1 .login_line_word1 {
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: -18px;
+      width: 130px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: white;
+      letter-spacing: 4px; }
+    .web .login_line .login_line_1 .login_line_word2 {
+      font-size: 9px;
+      font-family: arial;
+      font-weight: bold;
+      width: 130px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: white; }
+.web .signup input {
+  width: 209px;
+  border: 1px solid #9ac1c0;
+  margin-right: 23px; }
+.web .signup .colored {
+  color: red; }
+.web .signup {
+  font-size: 14px; }
+  .web .signup .toleft {
+    margin-left: 200px;
+    margin-bottom: 23px; }
+  .web .signup .signup_1 {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 40px; }
+  .web .signup .signup_2 .forsize1 {
+    margin-right: 14px; }
+  .web .signup .signup_7 select {
+    width: 167px;
+    border: 1px solid #9ac1c0;
+    font-size: 12px;
+    color: #7e7e7e;
+    line-height: 100%;
+    margin-right: 23px; }
+  .web .signup .signup_9 .forsize2 {
+    margin-right: 28px; }
+  .web .signup .signup_9 input {
+    width: auto;
+    margin: auto; }
+  .web .signup .signup_10 input {
+    width: 63px;
+    margin: auto;
+    vertical-align: middle; }
+  .web .signup .signup_10 img {
+    vertical-align: middle; }
+  .web .signup .signup_11 .p2 {
+    width: 550px;
+    height: 116px;
+    padding: 9px 33px 9px 9px;
+    border: 1px solid #9ac1c0;
+    font-size: 12px; }
+  .web .signup .signup_12 span {
+    margin-left: 330px; }
+  .web .signup .signup_13 {
+    text-align: center;
+    margin-top: 35px; }
+    .web .signup .signup_13 input {
+      width: 93px;
+      height: 24px;
+      background-color: #b3d9ff;
+      border-radius: 3px;
+      color: white;
+      cursor: pointer; }
+
+/*# sourceMappingURL=signup.css.map */

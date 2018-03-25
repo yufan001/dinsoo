@@ -1,0 +1,103 @@
+@charset "UTF-8";
+.web .list {
+  margin-top: 45px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #6DB6FF; }
+  .web .list .listtitle {
+    position: relative;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    height: 30px;
+    margin-bottom: 30px; }
+    .web .list .listtitle .listblue {
+      border-top: 30px solid #6DB6FF;
+      border-right: 13px solid transparent;
+      height: 0;
+      width: 80px;
+      position: absolute;
+      z-index: 0;
+      vertical-align: middle; }
+    .web .list .listtitle .listword {
+      position: absolute;
+      z-index: 1;
+      vertical-align: middle;
+      height: 30px;
+      line-height: 30px;
+      margin-left: 5px; }
+      .web .list .listtitle .listword span {
+        color: white; }
+.web .xianxititle {
+  text-align: center;
+  font-size: 10px; }
+  .web .xianxititle .xianxititle_p1 {
+    font-size: 18px; }
+  .web .xianxititle hr {
+    width: 157px;
+    margin-top: 9px;
+    border: none;
+    height: 1px;
+    background-color: #6DB6FF; }
+.web .profile {
+  width: 751px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 39px;
+  border-top: 1px solid #6db6ff;
+  margin-bottom: 33px; }
+  .web .profile .profile_tri1 {
+    width: 0;
+    height: 0;
+    border-top: 38px solid #6db6ff;
+    border-right: 15px solid transparent; }
+  .web .profile .profile_tri2 {
+    width: 0;
+    height: 0;
+    border-top: 38px solid #6db6ff;
+    border-left: 15px solid transparent; }
+  .web .profile .profile_tri3 {
+    width: 0;
+    height: 0;
+    border-bottom: 40px solid #6db6ff;
+    border-right: 15px solid transparent; }
+  .web .profile .profile_tri4 {
+    width: 0;
+    height: 0;
+    border-bottom: 40px solid #6db6ff;
+    border-left: 15px solid transparent; }
+  .web .profile .profile_info {
+    width: 721px;
+    margin-left: auto;
+    margin-right: auto; }
+.web .profile_info {
+  width: 751px;
+  font-size: 12px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+  .web .profile_info tit {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 18px; }
+  .web .profile_info .profile_info_1 {
+    margin-bottom: 16px; }
+  .web .profile_info .cultit {
+    margin: 0; }
+  .web .profile_info .corevalues {
+    text-align: start;
+    margin: 0;
+    margin-left: 195px; }
+  .web .profile_info .corevalues6 {
+    margin-bottom: 16px; }
+.web .vision {
+  border: none;
+  border-bottom: 1px solid #6db6ff; }
+.web .xianxibutton {
+  text-align: center;
+  margin-top: 22px; }
+  .web .xianxibutton button {
+    background-color: white;
+    margin: 0 7px; }
+
+/*# sourceMappingURL=Infopage.css.map */

@@ -1,0 +1,134 @@
+@charset "utf-8";
+.web {
+    .list {
+        margin-top: 45px;
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: 1px solid #6DB6FF;
+        .listtitle {
+            position: relative;
+            font-size: 16px;
+            font-family: "微软雅黑";
+            height: 30px;
+            margin-bottom: 30px;
+            .listblue {
+                border-top: 30px solid #6DB6FF;
+                border-right: 13px solid transparent;
+                height: 0;
+                width: 80px;
+                position: absolute;
+                z-index: 0;
+                vertical-align: middle;
+            }
+            .listword {
+                position: absolute;
+                z-index: 1;
+                vertical-align: middle;
+                height: 30px;
+                line-height: 30px;
+                margin-left: 5px;
+                span {
+                    color: white;
+                }
+            }
+        }
+        p {
+            font-size: 12px;
+            vertical-align: middle;
+            .listps {
+                font-size: 16px;
+            }
+            .listpsblue {
+                font-size: 14px;
+                color: #a7d2ff;
+            }
+        }
+        img {
+            vertical-align: middle;
+        }
+    }
+    .listmain {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 24px;
+        
+        table{
+            tr{
+                height: 32px;
+                line-height: 32px;
+                
+            }
+        }
+        table {
+            margin: 0 auto;
+            font-size: 12px;
+            border-bottom: 1px solid #B6DAFF;
+            background-color: #fafafa;
+            .tabletitle {
+                font-weight: bold;
+                font-size: 16px;
+                .th1 {
+                    width: 71px;
+                    border-top: 1px solid #B6DAFF;
+                }
+                .th2 {
+                    width: 167px;
+                    height: 38px;
+                    line-height: 38px;
+                    border-bottom: 1px solid #b6daff;
+                    .triblue1 {
+                        width: 0;
+                        height: 0;
+                        border-bottom: 38px solid #b6daff;
+                        border-right: 15px solid transparent;
+                    }
+                }
+                .th3 {
+                    width: 128px;
+                    border-bottom: 1px solid #b6daff;
+                }
+                .th4 {
+                    width: 131px;
+                    border-bottom: 1px solid #b6daff;
+                }
+                .th5 {
+                    width: 131px;
+                    border-bottom: 1px solid #b6daff;
+                }
+                .th6 {
+                    width: 163px;
+                    border-bottom: 1px solid #b6daff;
+                    .triblue2{
+                        width: 0;
+                        height: 0;
+                        border-bottom: 38px solid #b6daff;
+                        border-left: 15px solid transparent;
+                    }
+                }
+                .th7 {
+                    width: 78px;
+                    border-top: 1px solid #B6DAFF;
+                }
+            }
+        }
+    }
+    .pagechange{
+        margin-top: 18px;
+        text-align: center;
+        button{
+            width: 18px;
+            height: 18px;
+            vertical-align: middle;
+            &:active{
+                background-color: #6db6ff;
+                color: white;
+            }
+        }
+        .bt1{
+            width: 49px;
+        }
+    }
+}
